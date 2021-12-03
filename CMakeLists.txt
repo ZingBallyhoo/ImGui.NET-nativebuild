@@ -5,6 +5,7 @@ project(cimgui)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
+include_directories(cimgui)
 
 add_library(cimgui SHARED 
     cimgui/cimgui.cpp
