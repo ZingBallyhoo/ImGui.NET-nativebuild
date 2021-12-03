@@ -39,8 +39,6 @@ deploy:
   description: 'Native Release ($(APPVEYOR_BUILD_WORKER_IMAGE))'
   provider: GitHub
   auth_token:
-    secure: DEGIcombPNY+d9ZUR4321jSr5Y+i03DkeiLvfEhzJtOFmaZrXVdS8B14mJQyqw8c
+    secure: TWOJwOhwEnkaBRMI/W2r7ETrVeD1lqfn2tVTkqM+aLIux8dVlbcDOg7JKJ5kmMb1
   draft: false
   prerelease: false
-  on:
-    APPVEYOR_REPO_TAG: true
