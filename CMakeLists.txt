@@ -5,7 +5,9 @@ project(cimgui)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
+# see https://github.com/sonoro1234/LuaJIT-ImGui/blob/docking_inter/CMakeLists.txt
 include_directories(cimgui)
+add_definitions(-DIMNODES_NAMESPACE=imnodes)
 
 add_library(cimgui SHARED 
     cimgui/cimgui.cpp
